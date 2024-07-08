@@ -1,0 +1,49 @@
+.gallery{
+    display: grid;
+     width: 1570px;
+     grid-template-columns: repeat(5, 1fr);
+     border: 1px solid orangered;
+     gap: 5px;
+     background-color: bisque;
+     padding: 7px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.image-1{
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 3;
+    object-fit: cover;
+}
+
+.image-4{
+    grid-row: 2 / span 2;
+    grid-column: 4/span 2;
+    object-fit: cover;
+}
+
+/* .image-5, .image-7{
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 1;
+} */
+
+.image-6{
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 5;
+    height: 100%;
+} 
+
+/* .image-club{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+   grid-template-rows: 50%;
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 6;
+
+} */
+
