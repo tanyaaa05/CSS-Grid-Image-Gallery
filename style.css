@@ -27,12 +27,7 @@ img {
     object-fit: cover;
 }
 
-/* .image-5, .image-7{
-    grid-column: 1 / span 3;
-    grid-row: 4 / span 1;
-} */
-
-.image-6{
+.image-5{
     grid-row: 4 / span 1;
     grid-column: 1 / span 5;
     height: 100%;
